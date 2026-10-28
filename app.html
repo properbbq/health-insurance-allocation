@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- blob: is for the app itself, which is decrypted here and run from blob: addresses. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' blob:; style-src 'self'; img-src 'self' data:; connect-src 'self' https://api.github.com; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'none'; require-trusted-types-for 'script'; trusted-types 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="noindex">
+  <title>Health Insurance Allocation</title>
+  <link rel="icon" href="assets/favicon.svg?v=33e18e1deb0e" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css?v=33e18e1deb0e">
+  <script type="module" src="assets/app-host.js?v=33e18e1deb0e"></script>
+</head>
+<body>
+  <header class="topbar">
+    <span class="brand">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect class="bm-bg" x="3" y="3" width="26" height="26" rx="6"/><path class="bm-cross" d="M12 7.5h4.5v5h5v4.5h-5v5H12v-5H7v-4.5h5z"/><rect class="bm-cell bm-hot" x="18.5" y="21" width="7" height="2.6" rx="1"/></svg>
+      <span>Health Insurance Allocation</span>
+    </span>
+    <div id="user" class="user" hidden>
+      <span id="user-name" class="user-name"></span>
+      <a id="change-password" class="btn btn-ghost btn-sm" href="password.html">Change password</a>
+      <a class="btn btn-ghost btn-sm" href="index.html?signout=1">Sign out</a>
+    </div>
+  </header>
+
+  <div id="notices" class="notices" aria-live="polite"></div>
+  <div id="app"><p class="loading">Opening…</p></div>
+</body>
+</html>

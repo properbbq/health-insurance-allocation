@@ -1,0 +1,15 @@
+{
+ "v": 1,
+ "requests": {
+  "repo": "properbbq/health-insurance-allocation-maker",
+  "key": "BAjgh_5XT2A5ky5w6hKDh1N5E6i59aSZoU046pQegxwzC9B4qS1mKNFKDZ0P7BMpDR2Y3-mPKLscGdLIu4TPFaQ"
+ },
+ "users": {
+  "0c0651a869d8eed2522bbaf90339cb7f62aea044744c843067a7c7152b1702f3": {
+   "iterations": 600000,
+   "key": "e1W_hXH5atJtNZl2.FBfjdVnr6g-EHxbIKGWfhpZHWCMZhtTKSO35ihKtsr7-vz-UN-JZtGSE8bw5DRTz",
+   "salt": "18zHEp3AjRFYNoTp4pDK3A==",
+   "profile": "hnTKWRBAucsqZODq.PXn9H0YrRCJYxLE7DJysZ8f0zm1UKsb70vLN3-7qES3uhwhKivbs9AulKg4YtPt6wM5UWRNDeiEdAc5jePx80sP9d7BzvVkiRy8sp75rEocnrE33eu34FbJVdBHnykiIH5zKWnXF9VCV9IIQipAiCGQ02HhJu6Hm9GILAErSH5Rl4PFt_tg_Xol5CynPQDVjyuH8l_x3GQReZ9IVsI-E1KIfstm4ywh4eNwFD57oLkOY7skmoJzYsr2D9PsnHEPfFK_wpkLP1eEsJA5dXtDhMkUt80IlLg7u05D7CEgEuGta8a07piGEpck4Mwt1yhh61-ZLDUHAanNSSPcYh6AcsLOXBdPmFgYhvx9vz-3buhPVnEZMkw3ugaS355EY4X_kvpXUaJNiU0KdVZFNGqKmEXMVfyU89-a3ag"
+  }
+ }
+}

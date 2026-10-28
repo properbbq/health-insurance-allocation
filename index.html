@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'none'; require-trusted-types-for 'script'; trusted-types 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="noindex">
+  <title>Sign in · Health Insurance Allocation</title>
+  <link rel="icon" href="assets/favicon.svg?v=33e18e1deb0e" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css?v=33e18e1deb0e">
+  <script type="module" src="assets/signin.js?v=33e18e1deb0e"></script>
+</head>
+<body class="signin-page">
+  <main class="signin">
+    <div class="brand brand-lg">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect class="bm-bg" x="3" y="3" width="26" height="26" rx="6"/><path class="bm-cross" d="M12 7.5h4.5v5h5v4.5h-5v5H12v-5H7v-4.5h5z"/><rect class="bm-cell bm-hot" x="18.5" y="21" width="7" height="2.6" rx="1"/></svg>
+      <span>Health Insurance Allocation</span>
+    </div>
+    <form id="signin-form" class="card signin-card" novalidate>
+      <h1>Sign in</h1>
+      <label class="field">
+        <span>Username</span>
+        <input id="username" name="username" autocomplete="username" autocapitalize="none" spellcheck="false" maxlength="40" required>
+      </label>
+      <label class="field">
+        <span>Password</span>
+        <span class="password-wrap">
+          <input id="password" name="password" type="password" autocomplete="current-password" required>
+          <button id="peek" class="peek-btn" type="button" aria-label="Hold to show the password" title="Hold to show the password">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path class="eye" d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle class="eye" cx="12" cy="12" r="3"/><path class="slash" d="M4 4l16 16"/></svg>
+          </button>
+        </span>
+        <small><a href="password.html">Forgot your password?</a></small>
+      </label>
+      <label class="check"><input id="remember" type="checkbox"> Keep me signed in on this computer</label>
+      <p id="message" class="form-message" role="alert" hidden></p>
+      <button id="submit" class="btn btn-primary btn-block" type="submit">Sign in</button>
+    </form>
+  </main>
+</body>
+</html>
